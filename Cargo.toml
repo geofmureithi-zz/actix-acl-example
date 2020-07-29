@@ -1,0 +1,21 @@
+[package]
+name = "test-actix-scope"
+version = "0.1.0"
+authors = ["Geoffrey Mureithi <mureithinjuguna@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.0"
+redis = "0.15"
+actix = "0.10.0-alpha.3"
+log = "*"
+env_logger = "*"
+actix-identity = '0.2'
+futures = '0.3'
+
+[dependencies.serde]
+version = '1.0'
+features = ['derive']
